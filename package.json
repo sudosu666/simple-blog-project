@@ -1,0 +1,24 @@
+{
+  "name": "simple-blog-project",
+  "private": true,
+  "scripts": {
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && node index.js",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.1.5",
+    "concurrently": "^8.2.2",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "globby": "^14.1.0",
+    "lucide-react": "^0.511.0",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss": "^4.1.7",
+    "tailwing": "^0.0.1"
+  }
+}
